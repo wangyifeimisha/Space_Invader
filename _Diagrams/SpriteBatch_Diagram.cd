@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBatchMan">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAAAQAgAAAAAAEQAASAFAIEAAAAAAAKAkCAA=</HashCode>
+      <FileName>Sprite\SpriteBatch\SpriteBatchMan.cs</FileName>
+      <NewMemberFileName>Image\ImageMan.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pDataCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ManBase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EABEAAAAAAARAABAIAAAgAAACIAAJgEAAAAYACgQCBM=</HashCode>
+      <FileName>Manager\ManBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteBatch.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABQAABAAAAAAAAIAEAAAAAAAARAQAQEA=</HashCode>
+      <FileName>Sprite\SpriteBatch\SpriteBatch.cs</FileName>
+      <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_pSpriteNodeManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteNodeMan" HideInheritanceLine="true">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBgAAAAAAAAAASIEEIAAAAEAABCAECAQ=</HashCode>
+      <FileName>Sprite\SpriteBatch\SpriteNodeMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pDataCompare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteNode" HideInheritanceLine="true">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAQQAAAAAAACAAAAAAAAAAAAAAAEABAAAQAA=</HashCode>
+      <FileName>Sprite\SpriteBatch\SpriteNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true" HideInheritanceLine="true">
+    <Position X="9.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAAQAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchMan_Link" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBatch\SpriteBatchMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

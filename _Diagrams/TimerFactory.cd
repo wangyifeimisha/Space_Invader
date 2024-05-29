@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Command">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AnimationCmd" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAgAAIAAAAAAAAAAAAABAIA=</HashCode>
+      <FileName>Timer\AnimationCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent_Link" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimeEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimeEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAEAAQAAAgIAAAEAAAAGAAAAAAAAQAAARAA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BombSpawnEvent" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Event\BombSpawnEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.PlayerExplosionEvent" Collapsed="true">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAgAAIAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Timer\Event\PlayerExplosionEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
